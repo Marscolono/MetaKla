@@ -11,8 +11,10 @@ Usage：
 
 # train
 python MetaKla_train.py -k-fold -1 -train-fasta './Kla_data/Kla_data/upTrain.fa' 
+
 python MetaKla_train.py -k-fold 5 -train-fasta './Kla_data/Kla_data/upTrain.fa' 
 
 # test
 python MetaKla_test.py -test-fasta './Kla_data/Kla_data/fungiForTest.fa' 
+
 python MetaKla_test.py -test-fasta './Kla_data/Kla_data/Kla_human.txt' 
